@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/kart.jpg);
+    background-position: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 3px;
+}
+input{
+    height: 35px;
+    width: 40;
+}
+#Gönder{
+    height: 35px;
+    width: 50;
+}
+
