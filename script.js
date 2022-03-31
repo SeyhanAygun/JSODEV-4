@@ -151,9 +151,10 @@ function koduEkle(){
     let girilenKod=document.getElementById("txtIndirim").value;
     if(girilenKod == kod)
     {
-        toplamTutar=toplamTutar-10;
+        toplamTutar=toplamTutar-20;
         document.getElementById("sepetTutar").innerHTML=toplamTutar+" TL";
         document.getElementById("sonuc").innerHTML="İndirim uygulandı.";
+        document.getElementById("btnKod").disabled=true
     }
     else{
         document.getElementById("sonuc").innerHTML="Geçerli bir kod girmediniz!";
